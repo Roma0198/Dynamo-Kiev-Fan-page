@@ -8,7 +8,7 @@ div.shapka
 {
 height: 100px; 
 width: 100%;
-background-image:url(images/fon_head.jpeg); 
+background-image:url(../images/fon_head.jpeg); 
 background-size: contain; 
 text-align: center; 
 padding: 0px; 
@@ -42,7 +42,7 @@ padding: 0px;
 
 div.menu {
 font-family: 'Gaegu', cursive;
-background-image: url(images/tsygankov.jpeg);
+background-image: url(../images/tsygankov.jpeg);
 height: 380px; 
 /* width: 100%;  */
 margin: 0;
