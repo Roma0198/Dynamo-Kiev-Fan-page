@@ -1,0 +1,167 @@
+body
+{
+margin: 0;
+padding: 0;
+}
+
+div.shapka
+{
+height: 100px; 
+width: 100%;
+background-image:url(images/fon_head.jpeg); 
+background-size: contain; 
+text-align: center; 
+padding: 0px; 
+margin: 0px;
+position: fixed;
+z-index: 100;
+}
+
+div.shapka div	{
+height: 50px; 
+width: 200px; 
+margin: auto;	 
+text-align: center;
+}
+
+#logoshapka	{ 
+height: 100px;
+}
+
+#BodyPole{
+display: flex;
+width:100%;
+}	
+
+div.left {
+width: 20%;
+margin: 105px 5px 0px 5px;
+padding: 0px;
+}
+
+
+div.menu {
+font-family: 'Gaegu', cursive;
+background-image: url(images/tsygankov.jpeg);
+height: 380px; 
+/* width: 100%;  */
+margin: 0;
+padding: 10px;
+
+}
+
+.textmenu {
+margin: 20px;
+text-shadow: 0px 0px 10px #007ACC;
+font-size: 35px;
+color: #44A5FF;
+}
+
+ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+li {
+font-size: 20px;
+list-style-type: none;
+margin-bottom: 5px;
+margin-left: 15px;
+color: #007ACC;
+text-shadow: 0px 0px 10px  #44A5FF ;
+width: auto;
+}
+
+li:hover {
+text-shadow: 0px 0px 10px  rgb(255, 255, 255) ;
+}
+
+
+li a {
+color: black;
+text-decoration: none;
+}
+
+
+#imgball {
+height: 15px;
+}
+
+div.left h3{
+text-align: center;
+padding: 0px;
+margin: 5px;
+font-family: 'Courier New', Courier, monospace;
+color: #002A94;
+}
+.match {
+margin: 0px;
+}
+
+
+div.content
+{
+font-family: 'Neucha', cursive;
+background-color: #66CEFF; 
+height:auto;
+width:80%; 
+margin-top:105px;
+padding: 10px;
+/* position: relative;	 */		
+						
+}
+
+
+h1.news {
+text-align: center;
+color: #002A94;
+font-weight: bold;
+font-size: 40px;
+}
+
+h2.news {
+color: #002A94;
+text-indent: 35px;
+}
+
+/* div.content .contentnews
+{
+display: flex;	
+} */
+
+.imgshepelev {
+float: right;
+margin-left: 10px;
+margin-right: 5px;
+}
+
+div.content div p {
+text-indent: 25px;
+margin-left: 10px;
+
+}
+
+div.podval
+{
+background-color: rgb(94, 177, 255); 
+height: 50px;   
+margin: 10px 0px 10px 0px; 
+display: flex;
+position: relative;	
+
+}
+
+
+#applestore {
+height: 40px;
+position: relative;
+left: 20px;
+margin-top: 5px;
+}
+
+.podval div {
+font-weight: bold;
+color: rgb(0, 0, 0);
+position: absolute; 
+left: 45%;
+}
